@@ -1,17 +1,16 @@
 ---
-title: js类数组
+title: JavaScript中的类数组
 tags:
   - web前端
-  - js基础
 categories:
   - 技术日志
+  - JS基础
 date: 2019-09-16 16:19:05
 ---
 
-
 在`JavaScript`中，存在着一种对象，他们也叫做“类数组”，首先为了理解这个“类数组”的概念，就要从下面几个部分说起：
 
-##  数组的概念：
+## 数组的概念：
 
 > 数组是值的有序集合。每个值叫做一个元素，而每个元素在数组中有一个位置，以数字表示，称为索引。
 
@@ -63,7 +62,7 @@ function isArrayLike(o) {
     isFinite(o.length) && //o.length是有限数值
     o.length >= 0 && //o.length为非负值
     o.length === Math.floor(o.length) && //o.length是整数
-    o.length < Math.pow(2,32)
+    o.length < Math.pow(2, 32)
   )
     //o.length＜2^32
     return true;
@@ -75,6 +74,7 @@ function isArrayLike(o) {
 当然了，这里只考虑`length`的值是整数的情况，类数组之所以称为类数组，就是因为它和数组类似，但是不能直接使用数组方法.
 
 注：
+
 - 如果要显示出效果，该类数组的属性值最好写成数组索引形式，否则不会显示对应元素
 - `length`的值为数字字符串时，和数字效果相同，但是在`isArrayLike`函数中会显示`false`（这个可能是犀牛书没有考虑到吧）
 
@@ -84,8 +84,8 @@ function isArrayLike(o) {
 
 - `arrLike.length` 这个是当然的，因为当成对象来看就是访问了自己属性的值而已
 
-- `arrLike[x]` （x是访问的索引），可以通过该方法访问单个元素
-其实这个也可以通过对象来理解，对象有两种访问值的方法，一个是通过“ . + 属性”来访问，另一种就是通过“[]”来访问了
+- `arrLike[x]` （`x`是访问的索引），可以通过该方法访问单个元素
+  其实这个也可以通过对象来理解，对象有两种访问值的方法，一个是通过`. + 属性`来访问，另一种就是通过`[]`来访问了
 
 ## 使用数组通用方法：
 
@@ -108,13 +108,13 @@ function isArrayLike(o) {
 - 使用数组`Array.slice()`方法：
 
 ```javascript
-Array.prototype.slice.call(arrLike)
+Array.prototype.slice.call(arrLike);
 ```
 
 - 使用数组`Array.from()`方法
 
 ```javascript
-Array.from(arrLike)
+Array.from(arrLike);
 ```
 
 该方法是专门用来将类数组对象转为数组的。
