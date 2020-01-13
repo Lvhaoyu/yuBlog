@@ -112,11 +112,11 @@ Web 隧道是用`HTTP`的`CONNECT`方法建立起来的，隧道本身不会去�
 
 当表示缓存过期时间时，优先级从高到低分别是`Pragma -> Cache-Control -> Expires`。
 
-作为请求首部，`Catch-Control`的值可以为：
+作为请求首部，`Cache-Control`的值可以为：
 
 ![](4.png)
 
-作为响应首部，`Catch-Control`的值可以为：
+作为响应首部，`Cache-Control`的值可以为：
 
 ![](5.png)
 
