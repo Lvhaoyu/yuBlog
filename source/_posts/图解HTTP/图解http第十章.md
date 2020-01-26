@@ -66,6 +66,20 @@ visible:
 
 其中操作`HTML`文档和`XML`文档的`API`（Application Programming Interface，应用编程接口）被称为`DOM`。可以实现改变文档内容和样式等操作。
 
+### XML
+
+> XML（eXtensible Markup Language，可扩展标记语言）是一种可按应用目标进行扩展的通用标记语言。旨在通过使用 XML，使互联网数据共享变得更容易。
+>
+> XML 和 HTML 都是从标准通用标记语言 SGML（Standard Generalized Markup Language）简化而成。与 HTML 相比，它对数据的记录方式做了特殊处理。
+
+`HTML`偏向数据的展示，`XML`则偏向于数据的识别和传输，可以用来记录数据结构。通俗来说，`HTML`是给人看的，`XML`是给程序看的。
+
+`XML`和`HTML`一样，使用标签构成树形结构，并且可自定义扩展标签。
+
+从`XML`文档中读取数据比起`HTML`更为简单。由于`XML`的结构基本上都是用标签分割而成的树形结构，因此通过语法分析器（Parser）的解析功能解析`XML`结构并取出数据元素，可更容易地对数据进行读取。
+
+更容易地复用数据使得`XML`在互联网上被广泛接受。比如，可用在 2 个不同的应用之间的交换数据格式化。
+
 ## CSS
 
 层叠样式表（英语：Cascading Style Sheets，缩写：CSS；）是一种用来为结构化文档（如 HTML 文档或 XML 应用）添加样式（字体、间距和颜色等）的计算机语言，由 W3C 定义和维护。
