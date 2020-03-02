@@ -84,7 +84,7 @@ visible:
 
 层叠样式表（英语：Cascading Style Sheets，缩写：CSS；）是一种用来为结构化文档（如 HTML 文档或 XML 应用）添加样式（字体、间距和颜色等）的计算机语言，由 W3C 定义和维护。
 
-`CSS`是一个特别难学的语言，而且它很奇怪。它会给你一种三天入门七天精通的感觉。在知乎上大佬说学习`CSS`，一定要去阅读规范。这样知其然并知其所以然，才能学好`CSS`。
+`CSS`是一个特别难学的语言，而且它很奇怪，它会给你一种三天入门七天精通的感觉。在知乎上大佬说学习`CSS`，一定要去阅读规范。这样知其然并知其所以然，才能学好`CSS`。
 
 ## JSON
 
@@ -109,4 +109,4 @@ visible:
 - `JSON`无法表示函数
 - `JSON`对象语法不能有引用
 - `JSON.parse()`将`JSON`字符串转换为`JavaScript`中的数据结构
-- `JSON.stringify()`将`JavaScript`中的数据结构转为`JSON`字符串啊
+- `JSON.stringify()`将`JavaScript`中的数据结构转为`JSON`字符串
