@@ -12,7 +12,7 @@ visible:
 
 ## 前言
 
-在 JavaScript 中，`call`是一个很常见的方法，用来改变函数调用的时的`this`环境。
+在 JavaScript 中，`call`是一个很常见的方法，用来改变函数调用时的`this`环境。
 
 有这样一道题目：
 
