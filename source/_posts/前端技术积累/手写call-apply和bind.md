@@ -211,6 +211,6 @@ function search(obj, proto) {
 
 最后，所有原型对象的`__proto__`属性都指向最终的`Object.prototype`，`Object.prototype`的`__proto__`指向`null`。
 
-至于`constructor`有什么用，现在肯定是没什么用了，因为`ES6`已经增加了获取构造函数原型的方法。早先可以通过下面的方式访问构造函数的原型，因为除了浏览器环境，其他环境没有`__proto__`这个东西。
+至于`constructor`有什么用，现在肯定是没什么用了，`constructor`是构造函数原型上的属性，用来指向构造函数。`ES6`也已经增加了获取构造函数原型的方法`Reflect.getPrototypeOf(obj)`。早先可以通过下面的方式访问构造函数的原型。除了浏览器环境，其他环境没有`__proto__`这个东西。
 
 ![](222.jpg)
