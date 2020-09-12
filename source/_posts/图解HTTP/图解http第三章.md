@@ -21,7 +21,7 @@ HTTP 报文结构如下：
 
 ![](00042.jpeg)
 
-> CRLF： LF 是用来表示文本换行的方式。CR(Carriage Return) 代表回车，对应字符 '\r'；LF(Line Feed) 代表换行，对应字符 '\n'。由于历史原因，不同的操作系统文本使用的换行符各不相同。主流的操作系统一般使用 CRLF 或者 LF 作为其文本的换行符。其中，Windows 系统使用的是 CRLF, Unix 系统(包括 Linux 使用的是 LF，MAC OS 使用的是 LF 表示下一行。
+> CRLF： LF 是用来表示文本换行的方式。CR(Carriage Return) 代表回车，对应字符 '\r'；LF(Line Feed) 代表换行，对应字符 '\n'。由于历史原因，不同的操作系统文本使用的换行符各不相同。主流的操作系统一般使用 CRLF 或者 LF 作为其文本的换行符。其中，Windows 系统使用的是 CRLF, Unix 系统(包括 Linux 使用的是 LF，MAC OS 使用的是 LF 表示下一行（早期用的 CR）。
 
 ### 请求行
 
