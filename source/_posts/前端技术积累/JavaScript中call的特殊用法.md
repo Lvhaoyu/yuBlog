@@ -20,7 +20,9 @@ Number.call(Number, undefined, 0); // 等于什么？
 Number.call.call(Number, undefined, 0); //等于什么？
 ```
 
-当前，我认为这样的问题是毫无意义，甚至是有点为了考而考的目的了。但是，这部分的知识点确实疏忽了，补一下。
+我有时就想问一问，则破题目有什么意思，谁这么写代码不会被同事打死吗。顺带和同事分享了一下这个题。他说，这题确实没意思，可这个世界就是这样。
+
+透过这个题发现自己基础确实欠缺了一点，正好趁机补一补 JavaScript。
 
 ## 分析知识点
 
@@ -73,7 +75,6 @@ Number.call.call(Number, undefined, 0);
 ```
 
 等价于`Number.call(undefined, 0)`，也就是 0。如果`call`第一个参数是`undefined`，则在非严格模式下，指向全局。
-
 
 ## 扩展
 
