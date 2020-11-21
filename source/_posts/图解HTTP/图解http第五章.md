@@ -167,7 +167,7 @@ Web 隧道是用`HTTP`的`CONNECT`方法建立起来的，隧道本身不会去�
 
 #### 频繁变动的资源
 
-首先要使用`Cache-Control:no0-cache`设置为每次都请求服务器，但是要配合`ETag`或者`Last-Modified`来验证资源是否有效。
+首先要使用`Cache-Control:no-cache`设置为每次都请求服务器，但是要配合`ETag`或者`Last-Modified`来验证资源是否有效。
 
 #### 代码文件
 
